@@ -41,9 +41,9 @@ root.render(
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Explore" element={<Explore />} />
-            <Route path="/Create" element={<Create />} />
-            <Route path="/Profile" element={<Profile />} />
+            <Route path="/explore" element={<Explore />} />
+            <Route path="/create" element={<Create />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </Router>
       </RainbowKitProvider>
